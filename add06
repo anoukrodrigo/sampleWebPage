@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RodrigoIndustries(Pvt.)Ltd.</title>
+	<link rel="stylesheet" href="add01.css">
+	<link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+	 <section id="home" class="animated">
+		<nav>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
+	</nav>
+
+		
+	</section>
+
+
+	<section class="contain animated">
+		<div class="blogs animated">
+			<div class="vids animated">
+				<video id="myVideo25" src="tourbuler.MP4" class="myVideo" muted></video>
+				 <h3 class="animated">Bugatti Tourbillon</h3>
+				 <p class="animated">The Bugatti Tourbillon is a masterful fusion of high-end horology and automotive engineering, representing the pinnacle of luxury watchmaking. This timepiece is renowned for its intricate design and exceptional craftsmanship, which reflects the elegance and performance associated with the Bugatti brand. The Tourbillon features a highly sophisticated movement that showcases a rotating cage designed to enhance accuracy and precision, a hallmark of advanced watchmaking technology.
+
+At the heart of the Bugatti Tourbillon is its meticulously engineered movement, which embodies a perfect blend of mechanical innovation and artistic design. The watch features a complex tourbillon mechanism, which compensates for gravitational effects to improve timekeeping accuracy. This is coupled with a visually stunning design that often includes elements inspired by Bugatti's iconic automotive aesthetics, such as sleek lines and high-quality materials.
+
+The design of the Bugatti Tourbillon is not only about functionality but also about creating a statement of luxury and exclusivity. The watch often incorporates precious metals, high-grade ceramics, and intricate detailing, reflecting the same level of precision and artistry found in Bugatti's vehicles. Its unique appearance makes it a coveted piece for collectors and enthusiasts who appreciate the finer things in life.
+
+Rodrigo Industries ensures the Bugatti Tourbillon is shipped with the utmost care and precision. Our shipping process includes secure packaging that protects the watch from potential damage, real-time tracking for peace of mind, and climate-controlled conditions to maintain its impeccable quality. We understand the significance of such a high-value item and are dedicated to providing exceptional service throughout its journey.
+
+Overall, the Bugatti Tourbillon is a testament to the intersection of automotive excellence and fine watchmaking. Its innovative technology and luxurious design make it a standout timepiece for those who seek the ultimate in both performance and elegance.</p>
+			</div>
+			<button class="btn">Buy Now</button>
+		</div>
+	</section>
+
+
+
+
+
+<footer class="animated">
+	<div class="footer-col animated">
+		<h3>Our Premier Shipments</h3>
+		<li>Nuclear Minerals</li>
+		<li>Agricultural Goods</li>
+		<li>Platinum, Gold and Silver</li>
+		<li>Petrolium</li>
+		<li>Motor Vehicles</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Assets</li>
+		<li>Investors</li>
+		<li>Company Policies</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Comapnies</h3>
+		<li>Reliance Group</li>
+		<li>RI Hospitals</li>
+		<li>FastBurgers</li>
+		<li>RI Pharmaceuticals</li>
+		<li>Lockheed Martin</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Sites</h3>
+		<li>RI Healthcare</li>
+		<li>About RodrigoIndustries</li>
+		<li>Supply Chain Management</li>
+		<li>RI Capital</li>
+		<li>RI Developer Portal</li>
+	</div>
+
+	<div class="newsLetter animated">
+		<h3>Newsletter</h3>
+		<p>Subscribe for Updates! <br> Stay informed with Rodrigo Industries. <br> Get the latest news and insights<br> directly to your inbox.</p>
+		<div class="subs animated">
+			 <form action="userHead.php" method="POST">
+                <input type="hidden" name="form_type" value="newsletter">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit" class="newBytn">SUBSCRIBE</button>
+            </form>
+		</div>
+
+		
+	</div>
+	
+
+
+
+
+
+
+	
+</footer>
+
+
+<script src="add01.js"></script>
+</body>
+</html>

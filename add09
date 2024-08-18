@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RodrigoIndustries(Pvt.)Ltd.</title>
+	<link rel="stylesheet" href="add01.css">
+	<link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+	 <section id="home" class="animated">
+		<nav>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
+	</nav>
+
+		
+	</section>
+
+
+	<section class="contain animated">
+		<div class="blogs animated">
+			<div class="vids animated">
+				 <video id="myVideo20" src="rolexD.MP4" class="myVideo" muted></video>
+				 <h3 class="animated">Rolex Oyster Perpetual Cosmograph Daytona</h3>
+				 <p class="animated">The Rolex Oyster Perpetual Cosmograph Daytona is a prestigious chronograph renowned for its impeccable precision and racing heritage. Originally introduced in 1963, this timepiece has become a symbol of Rolex's commitment to excellence in horology and motorsport. Designed to cater to professional drivers and racing enthusiasts, the Daytona combines cutting-edge functionality with an unmistakable sense of style.
+
+The Cosmograph Daytona features a distinctive tachymetric scale on its bezel, allowing for accurate speed calculations over a known distance. Its chronograph function includes sub-dials for measuring elapsed time with remarkable accuracy, making it an indispensable tool for timing events. The watch's self-winding movement, the Rolex Caliber 4130, provides exceptional performance and reliability, with a power reserve of approximately 72 hours.
+
+The design of the Daytona is characterized by its sleek, stainless steel case and the iconic three-register chronograph layout. The watch is available in various versions, including models with precious metal bezels and dials. Its signature Oyster case is not only stylish but also ensures water resistance and durability, meeting the demands of both everyday wear and professional use.
+
+The Oyster Perpetual Cosmograph Daytona's aesthetic appeal is complemented by its high-performance features. The watch's luminous markers and hands provide optimal readability under any lighting conditions, while the chronograph pushers are ergonomically designed for precise operation. Its timeless design and advanced technology make it a versatile accessory that suits both formal and casual occasions.
+
+At Rodrigo Industries, we recognize the value and significance of the Rolex Oyster Perpetual Cosmograph Daytona. Our meticulous handling and secure shipping practices ensure that each watch arrives in perfect condition, reflecting our dedication to excellence and attention to detail. We are committed to delivering the same level of precision and luxury that defines Rolex, providing our clients with a truly exceptional experience.</p>
+			</div>
+			<button class="btn">Buy Now</button>
+		</div>
+	</section>
+
+
+
+
+
+<footer class="animated">
+	<div class="footer-col animated">
+		<h3>Our Premier Shipments</h3>
+		<li>Nuclear Minerals</li>
+		<li>Agricultural Goods</li>
+		<li>Platinum, Gold and Silver</li>
+		<li>Petrolium</li>
+		<li>Motor Vehicles</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Assets</li>
+		<li>Investors</li>
+		<li>Company Policies</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Comapnies</h3>
+		<li>Reliance Group</li>
+		<li>RI Hospitals</li>
+		<li>FastBurgers</li>
+		<li>RI Pharmaceuticals</li>
+		<li>Lockheed Martin</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Sites</h3>
+		<li>RI Healthcare</li>
+		<li>About RodrigoIndustries</li>
+		<li>Supply Chain Management</li>
+		<li>RI Capital</li>
+		<li>RI Developer Portal</li>
+	</div>
+
+	<div class="newsLetter animated">
+		<h3>Newsletter</h3>
+		<p>Subscribe for Updates! <br> Stay informed with Rodrigo Industries. <br> Get the latest news and insights<br> directly to your inbox.</p>
+		<div class="subs animated">
+			 <form action="userHead.php" method="POST">
+                <input type="hidden" name="form_type" value="newsletter">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit" class="newBytn">SUBSCRIBE</button>
+            </form>
+		</div>
+
+		
+	</div>
+	
+
+
+
+
+
+
+	
+</footer>
+
+
+<script src="add01.js"></script>
+</body>
+</html>

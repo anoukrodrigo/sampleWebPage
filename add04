@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RodrigoIndustries(Pvt.)Ltd.</title>
+	<link rel="stylesheet" href="add01.css">
+	<link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+	 <section id="home" class="animated">
+		<nav>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
+	</nav>
+
+		
+	</section>
+
+
+	<section class="contain animated">
+		<div class="blogs animated">
+			<div class="vids animated">
+				 <video id="myVideo2" src="aston.MP4" class="myVideo" muted></video>
+				 <h3 class="animated">Aston Martin Vantage GT3</h3>
+				 <p class="animated">The Aston Martin Vantage GT3 is a formidable competitor on the track, blending advanced technology with iconic design to deliver a top-tier racing experience. Engineered for high performance, the Vantage GT3 features a robust 4.0-liter twin-turbo V8 engine that produces an impressive 535 horsepower. This powerful engine, coupled with a lightweight carbon-fiber body, ensures exceptional acceleration and agility, making it a standout in endurance racing.
+
+The Vantage GT3’s design is not only visually striking but also meticulously optimized for aerodynamic efficiency. Its aggressive front splitter, rear diffuser, and large rear wing work together to enhance downforce and stability at high speeds. The car's chassis is engineered for precision handling, incorporating advanced suspension systems and adjustable settings to adapt to various racing conditions.
+
+Inside, the Aston Martin Vantage GT3 is equipped with a purpose-built cockpit designed for racing. The driver-focused interior includes a bespoke racing seat, lightweight controls, and a minimalistic design that prioritizes functionality and performance. Safety is paramount, with a full roll cage, racing harnesses, and fire suppression systems ensuring maximum protection for the driver.
+
+The Vantage GT3 also integrates sophisticated technology to aid in its performance. It features advanced telemetry systems that provide real-time data on the car’s performance, allowing for precise adjustments and strategic decision-making during races. The car’s engineering is supported by extensive research and development, ensuring that it meets the highest standards of racing excellence.
+
+Rodrigo Industries is proud to be associated with the Aston Martin Vantage GT3, offering expert shipping and handling to ensure its safe delivery. Our specialized transport solutions include secure, climate-controlled containers and real-time tracking, guaranteeing that this high-performance vehicle arrives in optimal condition. We are dedicated to providing top-tier service for enthusiasts and professionals alike, ensuring that every aspect of the Aston Martin Vantage GT3’s journey is handled with the utmost care.</p>
+			</div>
+			<button class="btn">Buy Now</button>
+		</div>
+	</section>
+
+
+
+
+
+<footer class="animated">
+	<div class="footer-col animated">
+		<h3>Our Premier Shipments</h3>
+		<li>Nuclear Minerals</li>
+		<li>Agricultural Goods</li>
+		<li>Platinum, Gold and Silver</li>
+		<li>Petrolium</li>
+		<li>Motor Vehicles</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Assets</li>
+		<li>Investors</li>
+		<li>Company Policies</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Comapnies</h3>
+		<li>Reliance Group</li>
+		<li>RI Hospitals</li>
+		<li>FastBurgers</li>
+		<li>RI Pharmaceuticals</li>
+		<li>Lockheed Martin</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Sites</h3>
+		<li>RI Healthcare</li>
+		<li>About RodrigoIndustries</li>
+		<li>Supply Chain Management</li>
+		<li>RI Capital</li>
+		<li>RI Developer Portal</li>
+	</div>
+
+	<div class="newsLetter animated">
+		<h3>Newsletter</h3>
+		<p>Subscribe for Updates! <br> Stay informed with Rodrigo Industries. <br> Get the latest news and insights<br> directly to your inbox.</p>
+		<div class="subs animated">
+			 <form action="userHead.php" method="POST">
+                <input type="hidden" name="form_type" value="newsletter">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit" class="newBytn">SUBSCRIBE</button>
+            </form>
+		</div>
+
+		
+	</div>
+	
+
+
+
+
+
+
+	
+</footer>
+
+
+<script src="add01.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RodrigoIndustries(Pvt.)Ltd.</title>
+	<link rel="stylesheet" href="add01.css">
+	<link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+	 <section id="home" class="animated">
+		<nav>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
+	</nav>
+
+		
+	</section>
+
+
+	<section class="contain animated">
+		<div class="blogs animated">
+			<div class="vids animated">
+				<video id="myVideo3" src="aWatch.MP4" class="myVideo" muted></video>
+				 <h3 class="animated">Apple Watch Series 9</h3>
+				 <p class="animated">The Apple Watch Series 9 represents the pinnacle of wearable technology, seamlessly blending advanced features with a sleek design to enhance daily life. This latest iteration introduces a range of improvements over its predecessors, including a more powerful processor and enhanced health monitoring capabilities. The Series 9 is powered by the new S9 chip, which ensures faster performance and better efficiency, making interactions with apps and notifications more responsive.
+
+One of the standout features of the Apple Watch Series 9 is its advanced health and fitness tracking. It includes state-of-the-art sensors that monitor heart rate, blood oxygen levels, and even track sleep patterns with greater accuracy. The watch also offers new features such as improved workout tracking, with more detailed metrics for activities like running, swimming, and cycling. Additionally, it integrates seamlessly with the Fitness+ service, providing personalized workout recommendations based on user data.
+
+The Series 9’s design is both stylish and functional, with a range of customizable watch faces and bands to suit individual preferences. The display is brighter and more vibrant, making it easier to view notifications and track fitness goals in various lighting conditions. The watch is also built with durability in mind, featuring a robust casing that is both water and dust resistant.
+
+Safety features are a key focus of the Apple Watch Series 9, with enhancements like fall detection, emergency SOS, and an updated crash detection system that can alert emergency services if needed. These features provide peace of mind and ensure that users are well-protected in various situations.
+
+Rodrigo Industries is committed to delivering the Apple Watch Series 9 with the highest level of care. Our shipping process includes secure packaging, real-time tracking, and climate-controlled transport to ensure that your device arrives in perfect condition. We understand the importance of this advanced technology and strive to provide exceptional service throughout its journey from our facilities to your doorstep.</p>
+			</div>
+			<button class="btn">Buy Now</button>
+		</div>
+	</section>
+
+
+
+
+
+<footer class="animated">
+	<div class="footer-col animated">
+		<h3>Our Premier Shipments</h3>
+		<li>Nuclear Minerals</li>
+		<li>Agricultural Goods</li>
+		<li>Platinum, Gold and Silver</li>
+		<li>Petrolium</li>
+		<li>Motor Vehicles</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Assets</li>
+		<li>Investors</li>
+		<li>Company Policies</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Comapnies</h3>
+		<li>Reliance Group</li>
+		<li>RI Hospitals</li>
+		<li>FastBurgers</li>
+		<li>RI Pharmaceuticals</li>
+		<li>Lockheed Martin</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Sites</h3>
+		<li>RI Healthcare</li>
+		<li>About RodrigoIndustries</li>
+		<li>Supply Chain Management</li>
+		<li>RI Capital</li>
+		<li>RI Developer Portal</li>
+	</div>
+
+	<div class="newsLetter animated">
+		<h3>Newsletter</h3>
+		<p>Subscribe for Updates! <br> Stay informed with Rodrigo Industries. <br> Get the latest news and insights<br> directly to your inbox.</p>
+		<div class="subs animated">
+			 <form action="userHead.php" method="POST">
+                <input type="hidden" name="form_type" value="newsletter">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit" class="newBytn">SUBSCRIBE</button>
+            </form>
+		</div>
+
+		
+	</div>
+	
+
+
+
+
+
+
+	
+</footer>
+
+
+<script src="add01.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RodrigoIndustries(Pvt.)Ltd.</title>
+	<link rel="stylesheet" href="add01.css">
+	<link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+	 <section id="home" class="animated">
+		<nav>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
+	</nav>
+
+		
+	</section>
+
+
+	<section class="contain animated">
+		<div class="blogs animated">
+			<div class="vids animated">
+				<video id="myVideo2" src="amg01.MP4" class="myVideo" muted></video>
+				 <h3 class="animated">Mercedes-AMG Project ONE</h3>
+				 <p class="animated">The Mercedes-AMG Project ONE represents a groundbreaking leap in automotive engineering, merging Formula 1 technology with road-going performance. At its core, the Project ONE features a hybrid powertrain that integrates a 1.6-liter V6 turbocharged engine with four electric motors, delivering a total of over 1,000 horsepower. This combination enables blistering acceleration and a top speed that rivals the most exclusive hypercars in the world.
+
+Designed with aerodynamics and efficiency in mind, the Project ONE boasts a sleek, aerodynamic exterior that minimizes drag and maximizes downforce. The car’s active aerodynamic elements, such as an adjustable rear wing and front flaps, adapt to driving conditions to enhance stability and performance. Its lightweight carbon fiber construction contributes to its agile handling and high-speed prowess.
+
+Inside, the Project ONE features a driver-focused cockpit with advanced technology derived from Mercedes-AMG’s racing heritage. The digital instrument clusters provides essential performance data, while the infotainment system offers connectivity and control over various vehicle functions. The racing-inspired bucket seats and minimalist design ensure that the focus remains on the driving experience.
+
+Rodrigo Industries takes pride in ensuring that every Project ONE arrives at its destination safely and securely. We employ state-of-the-art logistics and handling technology to protect these extraordinary vehicles during transport. Our specialized shipping solutions include custom-fitted transport containers, climate-controlled environments, and real-time tracking systems, all designed to maintain the car's pristine condition from departure to delivery.
+
+Overall, the Mercedes-AMG Project ONE, combined with Rodrigo Industries' commitment to excellence in automotive shipping, offers an unparalleled driving experience that blends extreme speed, advanced engineering, and exceptional care in logistics.</p>
+			</div>
+			<button class="btn">Buy Now</button>
+		</div>
+	</section>
+
+
+
+
+
+<footer class="animated">
+	<div class="footer-col animated">
+		<h3>Our Premier Shipments</h3>
+		<li>Nuclear Minerals</li>
+		<li>Agricultural Goods</li>
+		<li>Platinum, Gold and Silver</li>
+		<li>Petrolium</li>
+		<li>Motor Vehicles</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Assets</li>
+		<li>Investors</li>
+		<li>Company Policies</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Comapnies</h3>
+		<li>Reliance Group</li>
+		<li>RI Hospitals</li>
+		<li>FastBurgers</li>
+		<li>RI Pharmaceuticals</li>
+		<li>Lockheed Martin</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Sites</h3>
+		<li>RI Healthcare</li>
+		<li>About RodrigoIndustries</li>
+		<li>Supply Chain Management</li>
+		<li>RI Capital</li>
+		<li>RI Developer Portal</li>
+	</div>
+
+	<div class="newsLetter animated">
+		<h3>Newsletter</h3>
+		<p>Subscribe for Updates! <br> Stay informed with Rodrigo Industries. <br> Get the latest news and insights<br> directly to your inbox.</p>
+		<div class="subs animated">
+			 <form action="userHead.php" method="POST">
+                <input type="hidden" name="form_type" value="newsletter">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit" class="newBytn">SUBSCRIBE</button>
+            </form>
+		</div>
+
+		
+	</div>
+	
+
+
+
+
+
+
+	
+</footer>
+
+
+<script src="add01.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RodrigoIndustries(Pvt.)Ltd.</title>
+	<link rel="stylesheet" href="add01.css">
+	<link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+	 <section id="home" class="animated">
+		<nav>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
+	</nav>
+
+		
+	</section>
+
+
+	<section class="contain animated">
+		<div class="blogs animated">
+			<div class="vids animated">
+				<video id="myVideo21" src="rolexS.MP4" class="myVideo" muted></video>
+				 <h3 class="animated">Rolex Submariner</h3>
+				 <p class="animated">The Rolex Submariner is a legendary timepiece that epitomizes the intersection of durability, functionality, and luxury. Originally designed for underwater exploration, this iconic watch has become a symbol of precision and style. Its robust construction and water-resistant capabilities make it a reliable companion for both professional divers and watch enthusiasts.
+
+The Submariner features a sleek, stainless steel case and a unidirectional rotating bezel, designed for tracking dive times accurately. The watch's luminous markers and hands ensure readability in low-light conditions, making it ideal for underwater use. With a 300-meter water resistance rating, the Submariner is engineered to withstand extreme conditions, all while maintaining its elegance and functionality.
+
+Inside, the Rolex Submariner houses the advanced Caliber 3235 movement, which provides exceptional accuracy and reliability. This self-winding mechanism boasts a 70-hour power reserve, ensuring that the watch remains precise even when not worn for extended periods. The movement's innovative design contributes to the Submariner's reputation for longevity and performance.
+
+The design of the Submariner is both timeless and versatile. Its classic black dial, coupled with a stainless steel bracelet, complements a wide range of styles, from formal to casual. The watch's understated elegance and robust functionality make it a sought-after accessory for those who appreciate both luxury and practicality.
+
+At Rodrigo Industries, we understand the significance of the Rolex Submariner and ensure that each timepiece is handled with the utmost care during shipping. Our secure packaging and climate-controlled transport methods preserve the watch's condition and ensure that it reaches our clients in pristine condition. We are committed to delivering excellence and reflecting the same level of precision and quality that defines Rolex.</p>
+			</div>
+			<button class="btn">Buy Now</button>
+		</div>
+	</section>
+
+
+
+
+
+<footer class="animated">
+	<div class="footer-col animated">
+		<h3>Our Premier Shipments</h3>
+		<li>Nuclear Minerals</li>
+		<li>Agricultural Goods</li>
+		<li>Platinum, Gold and Silver</li>
+		<li>Petrolium</li>
+		<li>Motor Vehicles</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Assets</li>
+		<li>Investors</li>
+		<li>Company Policies</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Comapnies</h3>
+		<li>Reliance Group</li>
+		<li>RI Hospitals</li>
+		<li>FastBurgers</li>
+		<li>RI Pharmaceuticals</li>
+		<li>Lockheed Martin</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Sites</h3>
+		<li>RI Healthcare</li>
+		<li>About RodrigoIndustries</li>
+		<li>Supply Chain Management</li>
+		<li>RI Capital</li>
+		<li>RI Developer Portal</li>
+	</div>
+
+	<div class="newsLetter animated">
+		<h3>Newsletter</h3>
+		<p>Subscribe for Updates! <br> Stay informed with Rodrigo Industries. <br> Get the latest news and insights<br> directly to your inbox.</p>
+		<div class="subs animated">
+			 <form action="userHead.php" method="POST">
+                <input type="hidden" name="form_type" value="newsletter">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit" class="newBytn">SUBSCRIBE</button>
+            </form>
+		</div>
+
+		
+	</div>
+	
+
+
+
+
+
+
+	
+</footer>
+
+
+<script src="add01.js"></script>
+</body>
+</html>

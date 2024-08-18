@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RodrigoIndustries(Pvt.)Ltd.</title>
+	<link rel="stylesheet" href="add01.css">
+	<link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+	 <section id="home" class="animated">
+		<nav>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
+	</nav>
+
+		
+	</section>
+
+
+	<section class="contain animated">
+		<div class="blogs animated">
+			<div class="vids animated">
+				  <video id="myVideo22" src="royce.MP4" class="myVideo" muted></video>
+				 <h3 class="animated">Rolls-Royce Spectre</h3>
+				 <p class="animated">The Rolls-Royce Spectre represents the apex of luxury and innovation in the world of high-end automobiles. As Rolls-Royce's first all-electric vehicle, the Spectre redefines the boundaries of opulence and performance with its silent yet powerful electric drivetrain. This groundbreaking model combines the storied heritage of Rolls-Royce with cutting-edge technology, offering a refined driving experience that is both environmentally conscious and exhilarating.
+
+Under the hood, the Rolls-Royce Spectre features an advanced electric powertrain that delivers impressive acceleration and an ultra-smooth ride. Its dual-motor setup provides a seamless flow of power, ensuring that the vehicle remains responsive and agile while maintaining the serene comfort expected from a Rolls-Royce. The Spectre’s engineering excellence is evident in its long-range capabilities and sophisticated battery management system, designed to maximize efficiency and performance.
+
+The interior of the Spectre is a sanctuary of luxury, showcasing Rolls-Royce’s commitment to exquisite craftsmanship and attention to detail. The cabin is adorned with premium materials, including handcrafted leather, real wood veneers, and bespoke finishes that create an unparalleled ambiance. Advanced infotainment systems and driver assistance technologies are seamlessly integrated, offering both convenience and connectivity while enhancing the overall driving experience.
+
+Safety and technology are paramount in the Rolls-Royce Spectre, with a suite of advanced features designed to protect and assist the driver. This includes adaptive cruise control, lane-keeping assistance, and a comprehensive array of sensors and cameras that ensure a secure and enjoyable journey. The vehicle’s construction incorporates the latest safety innovations, providing peace of mind on every drive.
+
+Rodrigo Industries takes pride in ensuring that the Rolls-Royce Spectre is shipped with the highest level of care and precision. Our logistics team employs secure packaging, climate-controlled transport, and real-time tracking to safeguard the vehicle during its journey. We are committed to delivering a seamless experience, reflecting the same dedication to excellence that defines the Rolls-Royce brand.</p>
+			</div>
+			<button class="btn">Buy Now</button>
+		</div>
+	</section>
+
+
+
+
+
+<footer class="animated">
+	<div class="footer-col animated">
+		<h3>Our Premier Shipments</h3>
+		<li>Nuclear Minerals</li>
+		<li>Agricultural Goods</li>
+		<li>Platinum, Gold and Silver</li>
+		<li>Petrolium</li>
+		<li>Motor Vehicles</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Assets</li>
+		<li>Investors</li>
+		<li>Company Policies</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Comapnies</h3>
+		<li>Reliance Group</li>
+		<li>RI Hospitals</li>
+		<li>FastBurgers</li>
+		<li>RI Pharmaceuticals</li>
+		<li>Lockheed Martin</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Sites</h3>
+		<li>RI Healthcare</li>
+		<li>About RodrigoIndustries</li>
+		<li>Supply Chain Management</li>
+		<li>RI Capital</li>
+		<li>RI Developer Portal</li>
+	</div>
+
+	<div class="newsLetter animated">
+		<h3>Newsletter</h3>
+		<p>Subscribe for Updates! <br> Stay informed with Rodrigo Industries. <br> Get the latest news and insights<br> directly to your inbox.</p>
+		<div class="subs animated">
+			 <form action="userHead.php" method="POST">
+                <input type="hidden" name="form_type" value="newsletter">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit" class="newBytn">SUBSCRIBE</button>
+            </form>
+		</div>
+
+		
+	</div>
+	
+
+
+
+
+
+
+	
+</footer>
+
+
+<script src="add01.js"></script>
+</body>
+</html>

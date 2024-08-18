@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RodrigoIndustries(Pvt.)Ltd.</title>
+	<link rel="stylesheet" href="add01.css">
+	<link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+	 <section id="home" class="animated">
+		<nav>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
+	</nav>
+
+		
+	</section>
+
+
+	<section class="contain animated">
+		<div class="blogs animated">
+			<div class="vids animated">
+				<video id="myVideo12" src="jacob03.MP4" class="myVideo" muted></video>
+				 <h3 class="animated">Jacob & Co. Bugatti Chiron Baguette Black and Orange Sapphires</h3>
+				 <p class="animated">The Jacob & Co. Bugatti Chiron Baguette Black and Orange Sapphires is a stunning timepiece that epitomizes luxury and high-performance craftsmanship. This exclusive watch, named after the legendary Bugatti Chiron, seamlessly combines the worlds of high-end horology and automotive excellence. It features a striking design that showcases an array of meticulously cut baguette black and orange sapphires, echoing the dynamic aesthetics of the iconic sports car.
+
+The watch is equipped with a complex, high-precision movement that reflects Jacob & Co.'s expertise in creating innovative and luxurious timepieces. Its intricate mechanism is housed in a robust, elegant case that is meticulously adorned with sapphires, offering both beauty and durability. The transparent case back reveals the watch's sophisticated movement, further enhancing its appeal to discerning collectors and enthusiasts.
+
+The Bugatti Chiron Baguette is renowned for its distinctive design elements, including a dynamic, multi-layered dial that echoes the aerodynamic lines of the Bugatti Chiron. The vibrant orange and deep black sapphires create a visually stunning contrast, while the watch’s detailed craftsmanship ensures that each gem is perfectly aligned and securely set.
+
+This timepiece is not just a symbol of luxury but also a testament to Jacob & Co.'s commitment to engineering excellence. The watch’s intricate detailing and precision engineering make it a true masterpiece, celebrating both the spirit of high-performance automobiles and the art of fine watchmaking.
+
+At Rodrigo Industries, we understand the importance of safeguarding such exceptional timepieces. Our secure shipping protocols and meticulous handling ensure that the Jacob & Co. Bugatti Chiron Baguette Black and Orange Sapphires arrives in pristine condition, reflecting our dedication to delivering unparalleled quality and service.</p>
+			</div>
+			<button class="btn">Buy Now</button>
+		</div>
+	</section>
+
+
+
+
+
+<footer class="animated">
+	<div class="footer-col animated">
+		<h3>Our Premier Shipments</h3>
+		<li>Nuclear Minerals</li>
+		<li>Agricultural Goods</li>
+		<li>Platinum, Gold and Silver</li>
+		<li>Petrolium</li>
+		<li>Motor Vehicles</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Assets</li>
+		<li>Investors</li>
+		<li>Company Policies</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Comapnies</h3>
+		<li>Reliance Group</li>
+		<li>RI Hospitals</li>
+		<li>FastBurgers</li>
+		<li>RI Pharmaceuticals</li>
+		<li>Lockheed Martin</li>
+	</div>
+	<div class="footer-col animated">
+		<h3>Our Sites</h3>
+		<li>RI Healthcare</li>
+		<li>About RodrigoIndustries</li>
+		<li>Supply Chain Management</li>
+		<li>RI Capital</li>
+		<li>RI Developer Portal</li>
+	</div>
+
+	<div class="newsLetter animated">
+		<h3>Newsletter</h3>
+		<p>Subscribe for Updates! <br> Stay informed with Rodrigo Industries. <br> Get the latest news and insights<br> directly to your inbox.</p>
+		<div class="subs animated">
+			 <form action="userHead.php" method="POST">
+                <input type="hidden" name="form_type" value="newsletter">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit" class="newBytn">SUBSCRIBE</button>
+            </form>
+		</div>
+
+		
+	</div>
+	
+
+
+
+
+
+
+	
+</footer>
+
+
+<script src="add01.js"></script>
+</body>
+</html>
