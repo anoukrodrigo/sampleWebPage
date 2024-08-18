@@ -1,0 +1,320 @@
+  @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url('IMG_9291.JPG') no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+
+
+
+  }
+
+  .wrapper {
+    width: 420px;
+    position: relative; /* Position relative to contain the ::before pseudo-element */
+    color: white;
+    border-radius: 40px;
+    padding: 40px 20px;
+    overflow: hidden; /* Ensure the blur doesn't overflow the border radius */
+}
+
+.wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('IMG_9291.JPG') no-repeat center center;
+    background-size: cover;
+    filter: blur(8px); /* Adjust the blur level as needed */
+    z-index: -1; /* Place the blurred image behind the content */
+    border-radius: inherit; /* Match the border radius of the wrapper */
+}
+
+ img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 18px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%; /* Adjusted to 50% for a perfect circle */
+    border: none;
+    outline: none;
+}
+
+
+ a {
+  text-decoration: none;
+}
+
+  .wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 750;
+  }
+
+  .wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+
+  .input-box input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+  }
+
+  .input-box input::placeholder {
+    color: white;
+  }
+
+  
+
+
+
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+  }
+
+  .remember-forgot label input {
+    accent-color: white;
+    margin-right: 3px;
+  }
+
+  .remember-forgot a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+
+  @keyframes colorChange {
+            0% { background-color: #ff0000; }
+            5% { background-color: #ff5e00; }
+            10% { background-color: #ffbf00; }
+            15% { background-color: #c4ff00; }
+            20% { background-color: #80ff00; }
+            25% { background-color: #00ff2e; }
+            30% { background-color: #00ff80; }
+            35% { background-color: #00ffbf; }
+            40% { background-color: #00c4ff; }
+            45% { background-color: #005eff; }
+            50% { background-color: #2e00ff; }
+            55% { background-color: #8000ff; }
+            60% { background-color: #bf00ff; }
+            65% { background-color: #ff00c4; }
+            70% { background-color: #ff007f; }
+            75% { background-color: #ff0040; }
+            80% { background-color: #ff4000; }
+            85% { background-color: #ff8000; }
+            90% { background-color: #ffbf00; }
+            95% { background-color: #c4ff00; }
+            100% { background-color: #ff0000; }
+        }
+
+
+.btn {
+            display: inline-block;
+            padding: 10px 20px;
+            width: 80%;
+            margin-left: 42px;
+            margin-right: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: black;
+            background-color: #ff0000;
+            border: none;
+            border-radius: 25px; /* Rounded edges */
+            cursor: pointer;
+            transition: all 3.5s ease; /* Smooth transition for hover effect */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            animation: none; /* Default animation */
+        }
+
+
+.btn:hover {
+            animation: colorChange 8s linear infinite; /* Start the color change animation */
+             box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Glowing effect */
+             transform: scale(1.1); /* Increase size by 20% */
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+
+
+  .wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+
+  .register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .register-link p a:hover {
+    text-decoration: underline;
+  }
+
+  /* Base styles for error messages */
+.errMes {
+    background: darkred;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+    padding: 15px;
+    border-radius: 15px; /* Rounded corners */
+    animation: slide-down 3.5s ease-out, glow-red 1.5s infinite alternate, stay 5s 3.5s forwards, slide-up 3s 8.5s forwards;
+    /* Ensure the element starts off-screen and with no opacity */
+    opacity: 0;
+    position: fixed; /* Fixes the position to the viewport */
+    top: 0; /* Position it at the top of the viewport */
+    left: 50%;
+    transform: translateX(-50%); /* Center the message horizontally */
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+/* Glowing effect for error messages */
+@keyframes glow-red {
+    0% { text-shadow: 0 0 5px red; }
+    25% { text-shadow: 0 0 10px darkred; }
+    50% { text-shadow: 0 0 15px red; }
+    75% { text-shadow: 0 0 20px darkred; }
+    100% { text-shadow: 0 0 25px red; }
+}
+
+/* Sliding down transition for error messages */
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-100%) translateX(-50%); /* Start off-screen */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) translateX(-50%); /* End in view */
+    }
+}
+
+/* Stay in place animation */
+@keyframes stay {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Sliding up transition for error messages */
+@keyframes slide-up {
+    from {
+        opacity: 1;
+        transform: translateY(0) translateX(-50%); /* Start in view */
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-100%) translateX(-50%); /* Slide back up */
+    }
+}
+
+/* Base styles for success messages */
+.successMes {
+    color: green;
+    background-color: #dfd;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 15px; /* Rounded corners */
+    animation: slide-down 3.5s ease-out, glow-green 1.5s infinite alternate, stay 5s 3.5s forwards, slide-up 3s 8.5s forwards;
+    /* Ensure the element starts off-screen and with no opacity */
+    opacity: 0;
+    position: fixed; /* Fixes the position to the viewport */
+    top: 0; /* Position it at the top of the viewport */
+    left: 50%;
+    transform: translateX(-50%); /* Center the message horizontally */
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+/* Glowing effect for success messages */
+@keyframes glow-green {
+    0% { text-shadow: 0 0 5px green; }
+    25% { text-shadow: 0 0 10px lightgreen; }
+    50% { text-shadow: 0 0 15px lime; }
+    75% { text-shadow: 0 0 20px yellowgreen; }
+    100% { text-shadow: 0 0 25px chartreuse; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,446 @@
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header {
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('IMG_9294.JPG');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    opacity: 0; /* Start hidden */
+    transform: translateY(20px); /* Start with a vertical offset */
+    transition: opacity 2.5s ease-out, transform 2.5s ease-out; /* Smooth transition */
+}
+
+.animated.visible {
+    animation: fadeInUp 3s ease-out forwards; /* Apply animation */
+}
+
+
+nav {
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img {
+	width: 90px;
+	height: 90px;
+	border-radius: 300px;
+	border: none;
+	outline: none;
+}
+
+.nav-links {
+	flex: 1;
+	text-align: right;
+}
+
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.nav-links ul li a {
+	color: white;
+	font-size: 19px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.nav-links ul li::after {
+	content: "";
+	width: 0%;
+	height: 4px;
+	background: orange;
+	display: block;
+	margin: auto;
+	transition: 3.5s;
+}
+
+.nav-links ul li:hover::after {
+	width: 100%;
+} 
+
+ @keyframes colorChange {
+            0% { background-color: #ff0000; }
+            5% { background-color: #ff5e00; }
+            10% { background-color: #ffbf00; }
+            15% { background-color: #c4ff00; }
+            20% { background-color: #80ff00; }
+            25% { background-color: #00ff2e; }
+            30% { background-color: #00ff80; }
+            35% { background-color: #00ffbf; }
+            40% { background-color: #00c4ff; }
+            45% { background-color: #005eff; }
+            50% { background-color: #2e00ff; }
+            55% { background-color: #8000ff; }
+            60% { background-color: #bf00ff; }
+            65% { background-color: #ff00c4; }
+            70% { background-color: #ff007f; }
+            75% { background-color: #ff0040; }
+            80% { background-color: #ff4000; }
+            85% { background-color: #ff8000; }
+            90% { background-color: #ffbf00; }
+            95% { background-color: #c4ff00; }
+            100% { background-color: #ff0000; }
+        }
+
+
+.btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-left: 75px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: black;
+            background-color: #ff0000;
+            border: none;
+            border-radius: 25px; /* Rounded edges */
+            cursor: pointer;
+            transition: all 3.5s ease; /* Smooth transition for hover effect */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            animation: none; /* Default animation */
+        }
+
+
+.btn:hover {
+            animation: colorChange 8s linear infinite; /* Start the color change animation */
+             box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Glowing effect */
+             transform: scale(1.4); /* Increase size by 20% */
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+
+
+.text-box {
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text-box h1 {
+	font-size: 69px;
+	font-weight: 800;
+}
+
+.text-box p {
+	margin: 10px 0 40px;
+	font-size: 20px;
+	color: white;
+}
+
+/* ----------- what we do ---------------- */
+
+.whatWeDo {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 800;
+
+}
+
+p {
+	color: black;
+	font-size: 19px;
+	font-weight: 450;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensure items wrap correctly */
+}
+
+.things-col {
+    flex-basis: 30%; /* Adjust to fit 3 columns */
+    background-color: salmon;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: box-shadow 7.5s ease, transform 8.5s ease; /* Smooth transition for shadow and scaling */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); /* Initial shadow */
+}
+
+.things-col:hover {
+	 box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.8); /* Increased shadow on hover */
+    transform: scale(1.5); /* Slightly increase the size on hover */
+}
+
+
+
+
+
+
+
+h3 {
+	text-align: center;
+	font-weight: 800;
+	margin: 10px 0;
+}
+
+
+
+
+
+
+
+/*---------------- location----------------*/
+.location {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+.location-col {
+    flex: 1 1 30%; /* Flex-grow, flex-shrink, and flex-basis for consistent sizing */
+    max-width: 30%; /* Ensure columns don't exceed 30% of the container width */
+    border-radius: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box; /* Ensure padding and border are included in the width/height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-col img {
+    width: 100%; /* Ensure the image covers the container */
+    height: 100%; /* Ensure the image covers the container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    border-radius: 30px; /* Match the border-radius of the container */
+}
+
+.layer {
+    background: transparent; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px; /* Match the border-radius of the container */
+    z-index: 1; /* Ensure it sits above the image */
+    transition: 2.9s;
+}
+
+.layer:hover {
+	background: rgba(0, 0, 0, 0.7); /* Black color with 70% opacity */
+}
+
+.layer h3 {
+	width: 100%;
+	font-weight: 800;
+	color: white;
+	font-size: 35px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 3.5s;
+}
+
+.layer:hover h3 {
+	bottom: 49%;
+	opacity: 1;
+
+}
+
+
+/*---------------- why us----------------*/
+
+
+.facilitiesForYou {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.facilitiesForYou-col {
+	flex-basis: 30%;
+	border-radius: 18px;
+	margin-bottom: 5%;
+	text-align: left;
+
+}
+
+.facilitiesForYou-col img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.facilitiesForYou-col p {
+	padding: 0;
+}
+
+.facilitiesForYou-col h3 {
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+	font-size: 30px;
+	font-weight: 750;
+}
+
+
+
+/*---------------- contact us----------------*/
+
+.contact {
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('IMG_9336.JPG');
+	background-position: center;
+	background-size: cover;
+	border-radius: 18px;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.contact h4 {
+	color: white;
+	margin-bottom: 40px;
+	padding: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+/*---------------- footer----------------*/
+
+.footer {
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.footer h4 {
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-size: 29px;
+	font-weight: 800;
+}
+
+.small {
+    text-align: center; /* Center-align the text */
+    font-size: 14px; /* Set a suitable font size */
+    color: #555; /* Choose a color that complements the design */
+    margin: 20px 0; /* Add vertical spacing above and below */
+}
+
+.small a {
+    color: #007bff; /* Set a color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add horizontal spacing between links */
+}
+
+.small a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+
+.icons {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between icons */
+    align-items: center; /* Align icons vertically centered */
+    width: 200px; /* Adjust the width to fit your design */
+    margin: auto; /* Center the icons container */
+}
+
+.icons img {
+    width: 24px; /* Adjust the size of the icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 2.5s ease, filter 2.5s ease; /* Smooth transition for transform and filter */
+}
+
+.icons img:hover {
+    transform: scale(1.5); /* Scale the icon up by 150% */
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.9)) /* Apply a shadow effect with the initial color */;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
