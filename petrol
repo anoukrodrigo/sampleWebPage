@@ -10,7 +10,7 @@
 
 	    <section id="home" class="animated">
 		<nav>
-		<a href="index.html"> <img src="IMG_9303.JPG"></a>
+		<a href="imsMainPage.html"> <img src="IMG_9303.JPG"></a>
 	</nav>
 		<div class="topic01" >
 			<h1>Petroleum</h1>
@@ -24,30 +24,14 @@
 		
 	</section>
 
-	<section class="innerGoods animated">
-		<div class="over animated">
-			<img src="petrol01.JPG">
-			<div class="head animated">
+	<section class="innerGoods">
+		<div class="over">
+			<img src="petrol.JPG">
+			<div class="head">
 				<div class="name">
-					<h2>Super Diesel</h2>
+					<h2>Petroleum</h2>
 				</div>
-
-				<span>$49.96</span>
 			</div>
-			<hr>
-			<h3 class="animated">About the Product</h3>
-			<p class="animated">At Rodrigo Industries, we ensure the highest quality in our Super Diesel petroleum products by directly sourcing from industry giants Shell and Saudi Aramco. Our direct procurement from these reputable suppliers guarantees the integrity and reliability of our products. We leverage advanced logistics and supply chain management technologies to streamline the import process, ensuring that we meet all quality and compliance standards. Our team meticulously oversees each stage, from transportation and customs to quality control, ensuring that our Super Diesel petroleum products are delivered efficiently and meet our stringent standards for excellence.</p>
-		</div>
-
-
-
-		<div class="include animated">
-			<h3>Product Includes</h3>
-			<p>Super Diesel</p>
-			
-
-
-			<button class="btn">Buy Now</button>
 		</div>
 	</section>
 
